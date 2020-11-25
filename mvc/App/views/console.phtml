@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit-no">
+
+    <link rel="stylesheet" href="public/css/bootstrap.min.css">
+
+    <title>Consoles</title>
+</head>
+<body>
+   <h1>Qual o preço dos Consoles? </h1>
+    <h3> Dólar x Real </h3>
+
+    <div class="container">
+            <?php echo "O console" . $consoles['console']; ?>
+               <br> <?php echo "Nos Estados Unidos, custa: U$" .  $preco_dol['preco_dol']; ?>
+               <br> <?php echo "E no Brasil, custa: R$" . $preco_real['preco_real']; ?>
+    
+</body>
+</html>
